@@ -9,6 +9,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.links ul, .info{
     font-size: 18px;
     color: #F9FAF8;
 }
@@ -23,4 +26,38 @@
     gap: 10px;
     margin-left: auto;
     list-style-type: none;
+}
+
+.signup{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 300px;
+}
+
+.signup .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left:20px;
+}
+
+.title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:800;
+}
+
+input[type="button"]{
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.signup-img{
+    max-width: 300px;
+    min-width: 100px;
 }

@@ -70,6 +70,7 @@ input[type="button"]{
 .signup-img{
     max-width: 300px;
     min-width: 100px;
+    padding: 10px;
 }
 
 .content{

@@ -4,7 +4,7 @@ body{
    font-family: 'Roboto'; 
 }
 
-.header{
+.header, .copyright{
     background-color: #1F2937;
     color: white;
     display: flex;
@@ -166,4 +166,11 @@ input[type="button"]{
 
 .footer input[type="button"]{
     border-color: white;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    padding:50px;
+    color: white;
 }

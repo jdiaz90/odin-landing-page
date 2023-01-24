@@ -45,14 +45,17 @@
     padding-left:20px;
 }
 
-.title{
+.signup .text .title{
     font-size: 48px;
     color: #F9FAF8;
     font-weight:800;
 }
 
-input[type="button"]{
+input[type="button"], .footer .body{
     background-color: #3882f6;
+}
+
+input[type="button"]{
     color: white;
     font-weight: bold;
     padding: 5px 20px;
@@ -120,4 +123,39 @@ input[type="button"]{
     font-weight: bolder;
     text-align: right;
     align-self: flex-end;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.footer .body{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.footer .text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .text .title{
+    font-weight: bolder;
+}
+
+.footer .button{
+    display:flex;
+    align-items: center;
+}
+
+.footer input[type="button"]{
+    border-color: white;
 }
